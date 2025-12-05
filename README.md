@@ -76,36 +76,26 @@ A decentralized marketplace combining **multi-agent AI** with **gasless blockcha
 ---
  
 ## 🛠️ Tech Stack
- 
+
 ### Frontend
-```
-React 19.1.0                      # UI framework
-TypeScript 5.0                    # Type safety
-Vite 5.0                          # Build tool & dev server
-@stablecoin.xyz/react 0.5.1       # SBC SDK (wallet & gasless txs)
-@stablecoin.xyz/core 1.3.0        # SBC core functionality
-viem 2.38.0                       # Ethereum library (lightweight)
-```
- 
+- React 19.1.0
+- TypeScript 5.0
+- Vite 5.0
+- @stablecoin.xyz/react 0.5.1
+- viem 2.38.0
+
 ### Backend
-```
-Python 3.12+                      # Runtime
-strands-agents                    # Multi-agent framework (AWS-based)
-strands-agents-tools              # Agent tools & utilities
-boto3 1.40+                       # AWS SDK for Bedrock
-botocore 1.40+                    # AWS core
-python-dotenv 1.1.1               # Environment variables
-Standard Library http.server      # HTTP server (no FastAPI/Flask!)
-```
- 
+- Python 3.12+
+- strands-agents
+- boto3 1.40+
+- python-dotenv 1.1.1
+
 ### Blockchain & APIs
-```
-Base Mainnet (Chain ID: 8453)     # Primary blockchain
-SBC Token: 0xfdcC3dd6671eaB0709A4C0f3F53De9a333d80798
-AWS Bedrock (Claude Sonnet 4)     # LLM for agents
-LiFi API v1                       # DEX aggregation
-Etherscan V2 API                  # Transaction data (Base)
-```
+- Base Mainnet (Chain ID: 8453)
+- SBC Token: 0xfdcC3dd6671eaB0709A4C0f3F53De9a333d80798
+- AWS Bedrock (Claude Sonnet 4)
+- LiFi API v1
+- Etherscan V2 API
  
 ---
  
